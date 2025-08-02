@@ -7,3 +7,6 @@
 [submodule "nestjs/nestjs-crud-app"]
 	path = nestjs/nestjs-crud-app
 	url = https://github.com/anusree-weetech/nestjs-crud-app.git
+[submodule "todo"]
+	path = todo
+	url = https://github.com/Anusree6154s/todo-lists.git
