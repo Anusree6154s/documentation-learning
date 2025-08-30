@@ -4,6 +4,7 @@
 
 >[!NOTE]
 >Notes only on topics I dont remember<br>
+>Highlights are for topics I dont remember at all <br>
 >Website: [web.dev/css](https://web.dev/learn/css/), summarised by gpt
 
 <br>
