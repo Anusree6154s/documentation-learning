@@ -1,11 +1,13 @@
-name: Release Drafter
+name: Release Drafter (disabled)
 
-on:
-  push:
-    branches:
-      - master
-  pull_request:
-    types: [closed]
+# 🚫 Disabled for now. 
+# To re-enable automatic release drafting, uncomment the `on:` section below.
+# on:
+#   push:
+#     branches:
+#       - master
+#   pull_request:
+#     types: [closed]
 
 jobs:
   update_release_draft:
