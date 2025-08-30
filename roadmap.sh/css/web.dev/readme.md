@@ -16,12 +16,4 @@
 5. [inheritance](./05-inheritance)
 6. [colors](./06-colors)
 7. [sizing units](./07-sizing-units)
-
-
-
-
-
-
- 
-
-
+8. [layout](./08-layout)
