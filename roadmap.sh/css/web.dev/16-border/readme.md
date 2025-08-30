@@ -158,6 +158,8 @@ border-radius: 95px 155px 148px 103px / 48px 95px 130px 203px;
   border-image-repeat: stretch; /* stretch | repeat | round | space */
 }
 ```
+<img width="388" height="116" alt="image" src="https://github.com/user-attachments/assets/a1396a40-4678-4fb0-bb0e-80ecde862c6d" />
+
 
 #### 🔑 Properties:
 
