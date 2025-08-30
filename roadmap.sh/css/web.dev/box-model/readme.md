@@ -25,7 +25,7 @@ p {
 
   * Example: `width: 400px;`
   * Risk: content may **overflow** if it doesn’t fit.
-* <mark>**Intrinsic sizing**: Browser decides size based on content.</mark>
+* <mark>**Intrinsic sizing**: Browser decides size based on content. (default)</mark>
 
   * Example: <mark>`width: min-content;`</mark>
   * The box grows/shrinks to fit the content → less chance of overflow.
@@ -64,8 +64,10 @@ p {
 
 ### box-sizing property
 
-* `box-sizing: content-box` (default) → width applies to **content only**. Padding & border add to total size.
-* `box-sizing: border-box` → width applies to **border box** (includes padding + border). More predictable.
+* <mark> **`box-sizing: content-box`** (default) → width applies to **content only**. </mark> Padding & border add to total size.
+* <mark> **`box-sizing: border-box`** → width applies to **border box** (includes, <ins>padding + border</ins>). </amrk> More predictable.
+* <img width="564" height="282" alt="image" src="https://github.com/user-attachments/assets/68d90919-5bc8-4da9-b126-cb24f3830bd3" />
+
 
 Example:
 
