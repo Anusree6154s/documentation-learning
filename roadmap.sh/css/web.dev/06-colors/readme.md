@@ -87,11 +87,11 @@
   (halves lightness, keeps chroma, hue unchanged).
 
 ### Out of Gamut Colors
-- If a screen can’t display a wide-gamut color → **gamut mapping** chooses the closest possible color.
+- <mark>If a screen can’t display a wide-gamut color → **gamut mapping** chooses the closest possible color</mark>.
 * Use `@media (color-gamut: p3)` to control behavior.
 
 #### Gamut
-* A gamut is simply the range of colors that a device or system can represent.
+* <mark>A gamut is simply the range of colors that a device or system can represent</mark>.
 - Analogy:
   - Think of gamut as a box of crayons.
   - A cheap box (sRGB) has only basic colors.
