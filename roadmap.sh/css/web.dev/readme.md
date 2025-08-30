@@ -1,5 +1,6 @@
 >[!NOTE]
->Notes only on topics I dont remember
+>Notes only on topics I dont remember <br>
+>If parts of text is highlighted, then most of that section is not needed, else read whole section
 
 <br>
 
@@ -124,12 +125,6 @@ Example:
 <br>
 
 ## Cascade
-Got it 👍 — you pasted a whole lesson on **the CSS cascade**. Let me condense it into **clear bullet points** so you can quickly review the key ideas.
-
-
-
-## 🌊 CSS Cascade — Key Points
-
 ### 1. **Cascade Algorithm Steps**
 
 The cascade decides which CSS rule wins when multiple rules apply.
@@ -171,7 +166,7 @@ The order of evaluation is:
      * `!important` rules
      * Transitions (highest when active)
 
----
+
 
 ### 2. **Position & Order Examples**
 
@@ -191,7 +186,6 @@ The order of evaluation is:
   }
   ```
 
----
 
 ### 3. **Specificity Examples**
 
@@ -204,7 +198,6 @@ The order of evaluation is:
 * ID beats class or element.
 * Long selector lists accumulate specificity → harder to override.
 
----
 
 ### 4. **Origin Example**
 
@@ -216,17 +209,32 @@ The order of evaluation is:
   * Media query: `h1 { margin-block-start: 1ch; }`
   * User custom style with `!important`: `h1 { margin-block-start: 2rem !important; }` → **this wins**
 
----
+
 
 ### 5. **Importance**
 
 * Active transitions > active animations > `!important` > normal rules.
 * Animations and transitions can temporarily override even `!important`.
 
----
+### 6. Diff between author and user
+* Diff
+  * **Author = developer of the website**
+  * **User = person visiting the site**
+  * **User `!important` > Author `!important`** (because the user’s needs take priority).
+* Diff in styles
+  * **Author styles** = what *you* (developer) provide.
+  * **User styles** = what *the visitor or browser* provides.
+    * Custom stylesheets/extensions (like Stylish, Stylus, or uBlock cosmetic filters).
+    * Browser accessibility settings (e.g. increasing default font size, forcing dark mode).
 
-### 6. **Debugging with DevTools**
 
-* DevTools shows all matching CSS.
-* Crossed-out rules = overridden by cascade.
-* If your CSS doesn’t show at all → selector didn’t match or syntax invalid.
+- Example:
+
+```css
+/* Author style */
+h1 { font-size: 2rem; }
+
+/* User style (via browser extension or OS setting) */
+h1 { font-size: 1.2rem !important; } /* wins */
+```
+
