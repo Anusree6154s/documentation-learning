@@ -1,3 +1,4 @@
+## Box Model
 
 ### Why width looks “wrong”
 
@@ -18,7 +19,7 @@ p {
 
 → Actual width = 100 (content) + 40 (padding) + 2 (border) = **142px**
 
----
+
 
 ### Intrinsic vs. Extrinsic sizing
 * <mark>**Extrinsic sizing**: You set a fixed size (`width`, `height`).</mark>
@@ -30,14 +31,14 @@ p {
   * Example: <mark>`width: min-content;`</mark>
   * The box grows/shrinks to fit the content → less chance of overflow.
 
----
+
 
 ### Overflow
 
 * Happens when content is **too large** for the box.
 * Controlled with the `overflow` property (`visible`, `hidden`, `scroll`, `auto`).
 
----
+
 
 ### 4 areas of the Box Model
 
@@ -48,7 +49,7 @@ p {
 
 (Analogy: artwork → content, white mat → padding, frame → border, space between frames → margin.)
 
----
+
 
 ### Defaults (User Agent Styles)
 
@@ -60,11 +61,11 @@ p {
   * `<li>` → `display: list-item`
 * Default **box-sizing**: `content-box`.
 
----
+
 
 ### box-sizing property
 
-* <mark> **`box-sizing: content-box`** (default) → width applies to **content only**. </mark> Padding & border add to total size.
+* <mark> **`box-sizing: content-box`** (default) → width applies to **content only**. Makes boxes bigger than expected </mark> Padding & border add to total size.
 * <mark> **`box-sizing: border-box`** → width applies to **border box** (includes, <ins>padding + border</ins>). </amrk> More predictable.
 * <img width="564" height="282" alt="image" src="https://github.com/user-attachments/assets/68d90919-5bc8-4da9-b126-cb24f3830bd3" />
 
@@ -82,7 +83,7 @@ Example:
 * With `content-box`: 200 + 40 + 20 = **260px** wide.
 * With `border-box`: total stays **200px** wide.
 
----
+
 
 ### Common practice
 
@@ -97,7 +98,7 @@ Example:
 * Applies the **border-box model globally**.
 * Makes layouts more predictable and easier to manage.
 
----
+
 
 ✅ **Summary**:
 
