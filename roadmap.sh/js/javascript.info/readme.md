@@ -6,11 +6,12 @@
 
 ### Topics
 1. [Introduction](./intro)
-  1. [An Introduction to JavaScript](./intro/01-intro-to-js)
-  2. [Manuals and specifications](./inrto/02-manuals)
-  3. [Code editors](./intro/03-editors)
-  4. [Developer console](./intro/04-devtools)
+    1. [An Introduction to JavaScript](./intro/01-intro-to-js)
+    2. [Manuals and specifications](./inrto/02-manuals)
+    3. [Code editors](./intro/03-editors)
+    4. [Developer console](./intro/04-devtools)
 2. [JavaScript Fundamentals](./intro/js-fundamentals)
+3. 
 Hello, world!
 Code structure
 The modern mode, "use strict"
