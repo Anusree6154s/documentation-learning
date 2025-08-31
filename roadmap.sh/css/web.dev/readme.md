@@ -9,7 +9,7 @@
 
 <br>
 
-### Topics
+### Topics (36 out of 39 topics in website)
 1. [box-model](./01-box-model)
 2. selectors
 3. nesting
@@ -34,3 +34,15 @@
 22. [popover](./22-popover)
 23. [functions](./23-functions)
 24. [shapes](./24-shapes)
+25. [gradients](./25-gradients)
+26. [animations](./26-animations)
+27. [filters](./27-filters)
+28. [blend-modes](./28-blend-modes)
+29. [lists](./29-lists)
+30. [counters](./30-counters)
+31. [transitions](./31-transitions)
+32. [view-transitions](./32-view-transitions)
+33. [overflow](./33-overflow)
+34. [background](./34-background)
+35. [typography](./35-typography)
+36. [custom-query](./36-custom-query)
