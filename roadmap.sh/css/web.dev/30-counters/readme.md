@@ -1,18 +1,6 @@
 
 
-### 📌 **List Styles**
-
-* `list-style-type`: controls how list markers look (e.g., `decimal`, `upper-roman`, `lower-alpha`, etc.).
-* W3C **Ready-made Counter Styles** → adds **181 extra styles** across **45 writing systems**.
-* `@counter-style`: lets you **define custom markers** (symbols, prefix, suffix, etc.).
-* `list-style-position`:
-
-  * `outside` (default) → marker outside the content box.
-  * `inside` → marker inside the content box.
-
-<br>
-
-### 📌 **Counters**
+## <mark>**Counters**</mark>
 
 * Every `<li>` has an implicit counter called `list-item`.
 * **Creating counters**:
