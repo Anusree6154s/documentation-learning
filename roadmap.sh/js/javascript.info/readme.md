@@ -1,14 +1,16 @@
 ## Javascript.info
+> Created notes for every topic (known and unknown) summarised by gpt for more ease to read
 - website:  https://javascript.info/
 
 <br>
 
 ### Topics
-1. [An Introduction to JavaScript](./01-intro-to-js)
-Manuals and specifications
-Code editors
-Developer console
-JavaScript Fundamentals
+1. [Introduction](./intro)
+  1. [An Introduction to JavaScript](./intro/01-intro-to-js)
+  2. [Manuals and specifications](./inrto/02-manuals)
+  3. [Code editors](./intro/03-editors)
+  4. [Developer console](./intro/04-devtools)
+2. [JavaScript Fundamentals](./intro/js-fundamentals)
 Hello, world!
 Code structure
 The modern mode, "use strict"
