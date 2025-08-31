@@ -156,7 +156,14 @@ clip-path: path("M 0 200 L 0,75 A 5,5 0,0,1 150,75 L 200 200 z");
 #### Mask types
 
 * **Alpha masking** → transparency of pixels decides visibility.
+ <img width="200" height="188" alt="image" src="https://github.com/user-attachments/assets/827c0ade-3264-41af-940c-3386dce1ad59" />
+
 * **Luminance masking** → brightness + transparency decide visibility.
+  
+  <img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/c5f30597-fe87-480e-8d68-791c7f201664" /> -->
+  <img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/b1ab6eb7-14df-4bb7-8963-b586f14b459f" />
+
+
 
 #### Additional properties
 
