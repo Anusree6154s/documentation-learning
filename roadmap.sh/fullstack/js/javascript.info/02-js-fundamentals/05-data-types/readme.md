@@ -106,25 +106,6 @@
 
 <br>
 
-## 📝 Task: String Quotes
-
-### Code:
-
-```js
-let name = "Ilya";
-
-alert( `hello ${1}` );       // ?
-alert( `hello ${"name"}` );  // ?
-alert( `hello ${name}` );    // ?
-```
-
-### ✅ Solution:
-
-1. `hello 1` → `${1}` is number → prints as string.
-2. `hello name` → `"name"` is literal string.
-3. `hello Ilya` → `${name}` → variable value is used.
-
-<br>
 
 ## Diff between primitive and non primitive types
 
